@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Invoice Creator</title>
+  </head>
+  <body>
+    <div class="card">
+      <div class="card-header">
+        <h1>Invoice creator</h1>
+        <p>Thanks for choosing Alan Co.</p>
+      </div>
+      <div class="card-inner">
+        <div class="buttons">
+          <button id="wash-car">Wash Car: $10</button>
+          <button id="mow-lawn">Mow Lawn: $20</button>
+          <button id="pull-weeds">Pull Weeds: $30</button>
+        </div>
+        <div class="calculation">
+          <div class="topic">
+            <h3>TASK</h3>
+            <h3>TOTAL</h3>
+          </div>
+          <div class="items">
+            <div class="item">
+              <h3 class="item-name"></h3>
+              <h3 class="item-price"><span></span></h3>
+            </div>
+            <div class="item">
+              <h3 class="item-name2"></h3>
+              <h3 class="item-price2"><span></span></h3>
+            </div>
+            <div class="item">
+              <h3 class="item-name3"></h3>
+              <h3 class="item-price3"><span></span></h3>
+            </div>
+          </div>
+          <div class="total">
+            <div class="topic">
+              <h3>NOTES</h3>
+              <h3>TOTAL AMOUNT</h3>
+            </div>
+            <p id="total-price">$0</p>
+          </div>
+          <button id="send">
+            <svg
+              width="17"
+              height="12"
+              viewBox="0 0 17 12"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M14.5 0.5L14.5001 0.5C14.8829 0.49993 15.2513 0.646224 15.5297 0.90892C15.7305 1.0984 15.8737 1.33809 15.9462 1.60038L8.5 5.323L1.05384 1.60038C1.12634 1.33809 1.26945 1.0984 1.47029 0.90892C1.74874 0.646224 2.1171 0.49993 2.49991 0.5H2.5H14.5ZM8.27639 8.56521L8.5 8.67702L8.72361 8.56521L16 4.92702V10C16 10.3978 15.842 10.7794 15.5607 11.0607C15.2794 11.342 14.8978 11.5 14.5 11.5H2.5C2.10218 11.5 1.72064 11.342 1.43934 11.0607L1.08959 11.4104L1.43934 11.0607C1.15804 10.7794 1 10.3978 1 10V4.92702L8.27639 8.56521Z"
+                fill="white"
+                stroke="white"
+              />
+            </svg>
+            Send Invoice
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
